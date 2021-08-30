@@ -1,0 +1,19 @@
+body{
+    background-color: lightgray;
+}
+hr{
+    background-color: white;
+    /*working on a dotted line*/
+    border: none;
+    border-top:1px dotted black;
+    border-color: grey;
+    border-width: 5px;
+    height: 2px;
+    width: 5%;
+}
+h1{
+    color: #66bfbf;
+}
+h3{
+    color: brown;
+}
