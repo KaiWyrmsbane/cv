@@ -40,10 +40,11 @@ p{
 }
 
 hr{
+  /*this looks a lot better then the way it was done before*/
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100 auto;;
+  margin: 50px auto;
 }
 
 
@@ -92,6 +93,7 @@ hr{
   float: right;
   width: 25%;
   margin-left: 30px;
+  height: 13rem;
 }
 .btn {
   background: #11cdd4;
@@ -141,3 +143,10 @@ hr{
   width: 40%;
   margin: 40px auto 60px;
 }
+/*
+when working with margin remeber this (im pretty sure it works the same way with the others):
+1-value: all four sides
+2-value: 1st number -> top & bottom, 2nd number -> left & right
+3-value: 1st number -> top, 2nd number -> right & left, 3rd number -> bottom
+4-value: 1st -> top, 2nd -> right, 3rd -> bottom, 4th -> left
+*/
